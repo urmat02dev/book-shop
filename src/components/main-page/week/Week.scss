@@ -1,0 +1,41 @@
+
+#week{
+  background: #F8F4E4;
+  .week{
+    padding: 80px 0 80px 20px;
+    .slick-prev:before,
+    .slick-next:before{
+      color: black;
+    }
+    &--title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h1{
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 120%;
+        color: #2A2C31;
+      }
+      button{
+        width: 200px;
+        height: 44px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        color: #3970FA;
+        background: transparent;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1536px) {
+  .slick-slide img {
+    #week .week--title h1 {
+      padding: 0 0 0 70px;
+    }
+
+  }
+}
